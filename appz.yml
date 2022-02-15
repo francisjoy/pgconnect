@@ -15,9 +15,9 @@ deploy:
     ingress: None
     replicas: 2
     port:
-    - 5000
-    - 5001
-    - 7000
+    - 5000 # READ-WRITE
+    - 5001 # READ-ONLY
+    - 7000 # PGCONNECTOR-STATS
 
   
 properties:
