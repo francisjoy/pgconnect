@@ -1,7 +1,7 @@
 app:
     name: PGConnect
     code: PGCONNECT
-    notify: krishnan.rejith@gmail.com
+    notify: fjoy@ecloudconreol.com
 
 build:
     version: 0.2
@@ -11,7 +11,7 @@ build:
     image_template: pgconnect-0.2
 
 deploy:
-    context: rejith/DEV
+    context: francisjoy/DEV
     ingress: None
     replicas: 2
     port:
